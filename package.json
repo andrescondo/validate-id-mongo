@@ -1,6 +1,6 @@
 {
   "name": "validate-id-mongo",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "validate id the mongoDB",
   "main": "src/index.js",
   "scripts": {
@@ -15,5 +15,14 @@
   "license": "MIT",
   "dependencies": {
     "mongoose": "^5.13.14"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrescondo/validate-id-mongo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrescondo/validate-id-mongo/issues"
+  },
+  "homepage": "https://github.com/andrescondo/validate-id-mongo#readme"
 }
