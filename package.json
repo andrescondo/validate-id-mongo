@@ -1,0 +1,19 @@
+{
+  "name": "validate-id-mongo",
+  "version": "1.0.0",
+  "description": "validate id the mongoDB",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "objectId",
+    "mongoose"
+  ],
+  "author": "andres condo <andreescondo>",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.13.14"
+  }
+}
