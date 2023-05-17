@@ -5,13 +5,13 @@ module.exports.validateIdMongo = async (id, message) => {
   err.code = 400;
   
   if(!id){
-    err.message = "Debe añadir un id";
+    err.message = "you must add an id";
     throw err;
   }
 
 
   if(!ObjectId.isValid(id)){
-    err.message = message ? message : "El id es erroneo";
+    err.message = message ? message : "the ID is wrong";
     throw err;
   }
 
