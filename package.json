@@ -1,8 +1,9 @@
 {
   "name": "validate-id-mongo",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "validate id the mongoDB",
-  "main": "src/index.ts",
+  "main": "dist/index.js", 
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest",
