@@ -21,6 +21,9 @@ $ npm i validate-id-mongo --save
 
 ````
 const { validateIdMongo } = require('validate-id-mongo');
+// or
+import { validateIdMongo } from 'validate-id-mongo';
+
 
 await validateIdMongo(id, message);
 ````
