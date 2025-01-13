@@ -1,4 +1,4 @@
-import { validateIdMongo } from './src/index';
+import { validateIdMongo } from '../src/index';
 
 describe('validateIdMongo', () => {
   it('should throw an error if id is not provided', async () => {
