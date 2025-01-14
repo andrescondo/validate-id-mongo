@@ -38,6 +38,7 @@ The message helps us to customize the error message and have more control over w
 </br>
 </hr>
 
+[![BuyMeACoffee](https://img.shields.io/badge/buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/andrescondo)
 
 
 ## Spanish<a name="es"></a>
@@ -55,6 +56,8 @@ $ npm i validate-id-mongo --save
 
 ````
 const { validateIdMongo } = require('validate-id-mongo');
+// ó
+import { validateIdMongo } from 'validate-id-mongo';
 
 await validateIdMongo(id, mensaje);
 ````
@@ -68,4 +71,5 @@ El mensaje nos sirve para personalizar el mensaje de error y tener mas control d
 
 </br>
 
+[![BuyMeACoffee](https://img.shields.io/badge/c%C3%B3mprame_un_caf%C3%A9-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/andrescondo)
 
